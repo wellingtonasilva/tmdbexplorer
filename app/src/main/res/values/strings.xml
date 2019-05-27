@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TMDb Explorer</string>
+    <string name="tmdb_api_key">9d4f0bad81d73738bc02f1b185f81261</string>
+    <string name="app_pesquisar">Pesquisar</string>
+    <string name="app_dummy_title">Finding Nemo</string>
+    <string name="app_dummy_year">2018</string>
+    <string name="app_runtime">Runtime</string>
+    <string name="app_original_language">Original Language</string>
+    <string name="app_budget">Budget</string>
+    <string name="app_revenue">Revenue</string>
+    <string name="app_overview">Overview</string>
+    <string name="app_message">Please enter with a text to search a movie</string>
+</resources>
