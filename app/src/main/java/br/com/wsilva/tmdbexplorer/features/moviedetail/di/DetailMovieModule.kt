@@ -4,7 +4,6 @@ import br.com.wsilva.tmdbexplorer.features.moviedetail.DetailMovieContract
 import br.com.wsilva.tmdbexplorer.features.moviedetail.DetailMovieFragment
 import br.com.wsilva.tmdbexplorer.features.moviedetail.DetailMoviePresenter
 import br.com.wsilva.tmdbexplorer.service.BaseApiService
-import br.com.wsilva.tmdbexplorer.util.AppUtils
 import dagger.Module
 import dagger.Provides
 import retrofit2.Retrofit
@@ -16,11 +15,6 @@ class DetailMovieModule(private val view: DetailMovieFragment) {
     @Provides
     fun providesDetailMovieView(): DetailMovieContract.View {
         return view
-    }
-
-    @Provides
-    fun providesRetrofit(@Named("baseUrl") url: String): Retrofit {
-        return AppUtils.createRetrofit(url)
     }
 
     @Provides
